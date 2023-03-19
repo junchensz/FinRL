@@ -75,7 +75,7 @@ class YahooFinanceProcessor:
             time_interval = "90m"
         elif time_interval == "1H":
             time_interval = "1h"
-        elif time_interval == "1D":
+        elif time_interval == "1D" or time_interval == "1d":
             time_interval = "1d"
         elif time_interval == "5D":
             time_interval = "5d"
